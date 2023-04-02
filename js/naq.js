@@ -90,3 +90,5 @@ let naQuestions = [
     correct: "B"
   },
 ]
+
+export default naQuestions

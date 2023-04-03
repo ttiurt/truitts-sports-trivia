@@ -7,7 +7,7 @@ const MAX_QUESTIONS = 5
 
 /*---------------------------- Variables (state) ----------------------------*/
 
-let currentQuestion, availQuestions, score, questionCount, nextQuestion
+let currentQuestion, availQuestions, score, questionCount, checkingAnswer
 
 /*------------------------ Cached Element References ------------------------*/
 
@@ -23,6 +23,7 @@ const choiceD = document.getElementById("D")
 
 /*----------------------------- Event Listeners -----------------------------*/
 
+choices.addEventListener('click', handleClick)
 
 
 /*-------------------------------- Functions --------------------------------*/
@@ -30,25 +31,33 @@ const choiceD = document.getElementById("D")
 function init(){
   questionCount = 0
   score = 0
+  checkingAnswer = false
+  availQuestions = [... naQuestions]
   newQuestion()
 }
 
 function newQuestion(){
   questionCount++
-  const questionIdx = Math.floor(Math.random() * naQuestions.length)
-  currentQuestion = naQuestions[questionIdx]
+  const questionIdx = Math.floor(Math.random() * availQuestions.length)
+  currentQuestion = availQuestions[questionIdx]
   question.innerText = currentQuestion.question
   choiceA.innerText = currentQuestion.choiceA
   choiceB.innerText = currentQuestion.choiceB
   choiceC.innerText = currentQuestion.choiceC
   choiceD.innerText = currentQuestion.choiceD
+  checkingAnswer = true
+  availQuestions.splice(questionIdx, 1)
 }
 
-function checkAnswer(){
+function handleClick(){  
+  console.log('CLICKED')
+}
+
+function checkAnswer(evt){
   
 }
 
-console.log(naQuestions)
+console.log(availQuestions)
 
 
 

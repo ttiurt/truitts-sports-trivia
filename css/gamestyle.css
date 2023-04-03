@@ -45,6 +45,18 @@ body {
   justify-content: center;
 }
 
+#counter{
+  display: flex;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 35px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  padding: 5px 10px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 #resetBtn{
   font-size: 20px;
   display: flex;
@@ -55,4 +67,17 @@ body {
   background-color: orange;
   justify-content: center;
   align-items: center;
+}
+
+#trackers{
+  display: flex;
+  justify-content: space-between;
+}
+
+.trackpre{
+  text-align: center;
+}
+
+.trackmain{
+  text-align: center;
 }

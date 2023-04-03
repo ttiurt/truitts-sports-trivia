@@ -20,6 +20,8 @@ const choiceA = document.getElementById("A")
 const choiceB = document.getElementById("B")
 const choiceC = document.getElementById("C")
 const choiceD = document.getElementById("D")
+const scoreBoard = document.getElementById("score")
+const qCounter = document.getElementById("qcount")
 
 
 /*----------------------------- Event Listeners -----------------------------*/
@@ -63,10 +65,14 @@ function handleClick(evt){
     console.log("CORRECT!")
   }else
   newQuestion()
+  updateBoards()
   console.log(score)
 }
 
-
+function updateBoards(){
+  scoreBoard.innerText = score
+  qCounter.innerText = questionCount
+}
 
 
 

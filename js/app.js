@@ -42,7 +42,7 @@ function init(){
 
 function newQuestion(){
   if (availQuestions === 0 || questionCount >= MAX_QUESTIONS){
-    return init()
+    return window.location.assign('/endpage.html')
   }
   questionCount++
   const questionIdx = Math.floor(Math.random() * availQuestions.length)

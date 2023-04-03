@@ -3,11 +3,11 @@ import naQuestions from "./naq.js"
 
 /*-------------------------------- Constants --------------------------------*/
 
-
+const MAX_QUESTIONS = 5
 
 /*---------------------------- Variables (state) ----------------------------*/
 
-let currentQuestion, shuffleQuestion
+let currentQuestion, availQuestions, score, questionCount, nextQuestion
 
 /*------------------------ Cached Element References ------------------------*/
 
@@ -28,5 +28,28 @@ const choiceD = document.getElementById("D")
 /*-------------------------------- Functions --------------------------------*/
 
 function init(){
+  questionCount = 0
+  score = 0
+  newQuestion()
+}
+
+function newQuestion(){
+  questionCount++
+  const questionIdx = Math.floor(Math.random() * naQuestions.length)
+  currentQuestion = naQuestions[questionIdx]
+  question.innerText = currentQuestion.question
+  choiceA.innerText = currentQuestion.choiceA
+  choiceB.innerText = currentQuestion.choiceB
+  choiceC.innerText = currentQuestion.choiceC
+  choiceD.innerText = currentQuestion.choiceD
+}
+
+function checkAnswer(){
   
 }
+
+console.log(naQuestions)
+
+
+
+init()

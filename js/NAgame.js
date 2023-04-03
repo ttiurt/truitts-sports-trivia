@@ -28,8 +28,6 @@ const qCounter = document.getElementById("qcount")
 
 choices.addEventListener('click', handleClick)
 
-
-
 /*-------------------------------- Functions --------------------------------*/
 
 function init(){

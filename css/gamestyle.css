@@ -45,7 +45,7 @@ body {
   justify-content: center;
 }
 
-#next-question{
+#resetBtn{
   font-size: 20px;
   display: flex;
   flex-direction: column;

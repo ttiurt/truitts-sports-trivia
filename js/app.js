@@ -21,9 +21,11 @@ const choiceB = document.getElementById("B")
 const choiceC = document.getElementById("C")
 const choiceD = document.getElementById("D")
 
+
 /*----------------------------- Event Listeners -----------------------------*/
 
 choices.addEventListener('click', handleClick)
+
 
 
 /*-------------------------------- Functions --------------------------------*/
@@ -37,6 +39,9 @@ function init(){
 }
 
 function newQuestion(){
+  if (availQuestions === 0 || questionCount >= MAX_QUESTIONS){
+    return init()
+  }
   questionCount++
   const questionIdx = Math.floor(Math.random() * availQuestions.length)
   currentQuestion = availQuestions[questionIdx]
@@ -47,17 +52,22 @@ function newQuestion(){
   choiceD.innerText = currentQuestion.choiceD
   checkingAnswer = true
   availQuestions.splice(questionIdx, 1)
+  console.log(availQuestions)
 }
 
-function handleClick(){  
-  console.log('CLICKED')
+function handleClick(evt){  
+  const playerChoice = evt.target.id
+  if( playerChoice == currentQuestion.correct){
+    score = score + 20
+    newQuestion()
+    console.log("CORRECT!")
+  }else
+  newQuestion()
+  console.log(score)
 }
 
-function checkAnswer(evt){
-  
-}
 
-console.log(availQuestions)
+
 
 
 

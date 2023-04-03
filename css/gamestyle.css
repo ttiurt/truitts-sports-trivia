@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+}
+
+*::before
+*::after{
+  box-sizing: inherit;
+}
+
+body {
+  background-color: gray;
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+
+#qContainer{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+}
+
+#btns{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}

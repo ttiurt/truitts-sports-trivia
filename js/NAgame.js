@@ -22,11 +22,17 @@ const choiceC = document.getElementById("C")
 const choiceD = document.getElementById("D")
 const scoreBoard = document.getElementById("score")
 const qCounter = document.getElementById("qcount")
+const resetBtn = document.getElementById("resetBtn")
+const endTitle = document.getElementById("endMsgTitle")
+const endMsg = document.getElementById("endMsg")
+const endScore = document.getElementById("endScore")
 
 
 /*----------------------------- Event Listeners -----------------------------*/
 
 choices.addEventListener('click', handleClick)
+resetBtn.addEventListener('click', init)
+
 
 /*-------------------------------- Functions --------------------------------*/
 
@@ -35,12 +41,13 @@ function init(){
   score = 0
   checkingAnswer = false
   availQuestions = [... naQuestions]
+  updateBoards()
   newQuestion()
 }
 
 function newQuestion(){
   if (availQuestions === 0 || questionCount >= MAX_QUESTIONS){
-    return window.location.assign('/endpage.html')
+    return gameOver()
   }
   questionCount++
   const questionIdx = Math.floor(Math.random() * availQuestions.length)
@@ -72,7 +79,32 @@ function updateBoards(){
   qCounter.innerText = questionCount
 }
 
+function gameOver(){
+  if (score = 100){
+    return smartPerson()
+  } else if (score >= 40 && score <= 80){
+    return notSoSmartPerson()
+  } else {
+    return notForYou() 
+  }
+}
 
+function smartPerson() {
+  endTitle.innerText = `INSANE!`
+  endScore.innerText = `${score} points`
+  endMsg.innerText = `You're Basically an Encyclopedia!`
+}
 
+function notSoSmartPerson(){
+  endTitle.innerText = `Good Job!`
+  endScore.innerText = `${score} points`
+  endMsg.innerText = `Next time you'll get 'em all!`
+}
+
+function notForYou(){
+  endTitle.innerText = `Yikes. :/`
+  endScore.innerText = `${score} points`
+  endMsg.innerText = `Maybe sports aren't for you...`
+}
 
 init()

@@ -23,6 +23,9 @@ const choiceD = document.getElementById("D")
 const scoreBoard = document.getElementById("score")
 const qCounter = document.getElementById("qcount")
 const resetBtn = document.getElementById("resetBtn")
+const changeCat = document.getElementById("changeCat")
+const trackCont = document.getElementById("trackers")
+const endMsgs = document.getElementById("endMsgs")
 const endTitle = document.getElementById("endMsgTitle")
 const endMsg = document.getElementById("endMsg")
 const endScore = document.getElementById("endScore")
@@ -32,7 +35,7 @@ const endScore = document.getElementById("endScore")
 
 choices.addEventListener('click', handleClick)
 resetBtn.addEventListener('click', init)
-
+changeCat.addEventListener('click', returnHome)
 
 /*-------------------------------- Functions --------------------------------*/
 
@@ -41,6 +44,9 @@ function init(){
   score = 0
   checkingAnswer = false
   availQuestions = [... naQuestions]
+  endMsgs.style.display = "none"
+  trackCont.style.display = "flex"
+  container.style.display = "flex"
   updateBoards()
   newQuestion()
 }
@@ -59,7 +65,6 @@ function newQuestion(){
   choiceD.innerText = currentQuestion.choiceD
   checkingAnswer = true
   availQuestions.splice(questionIdx, 1)
-  console.log(availQuestions)
 }
 
 function handleClick(evt){  
@@ -67,11 +72,9 @@ function handleClick(evt){
   if( playerChoice == currentQuestion.correct){
     score = score + 20
     newQuestion()
-    console.log("CORRECT!")
   }else
   newQuestion()
   updateBoards()
-  console.log(score)
 }
 
 function updateBoards(){
@@ -80,7 +83,10 @@ function updateBoards(){
 }
 
 function gameOver(){
-  if (score = 100){
+  endMsgs.style.display = "block"
+  trackCont.style.display = "none"
+  container.style.display = "none"
+  if (score === 100){
     return smartPerson()
   } else if (score >= 40 && score <= 80){
     return notSoSmartPerson()
@@ -105,6 +111,10 @@ function notForYou(){
   endTitle.innerText = `Yikes. :/`
   endScore.innerText = `${score} points`
   endMsg.innerText = `Maybe sports aren't for you...`
+}
+
+function returnHome(){
+  window.location.assign("home.html")
 }
 
 init()

@@ -1,4 +1,4 @@
-import euQuestions from "./questions.js"
+import euQuestions from "./EUquestions.js"
 
 
 /*-------------------------------- Constants --------------------------------*/

@@ -1,4 +1,4 @@
-import naQuestions from "./questions.js"
+import naQuestions from "./NAquestions.js"
 
 
 /*-------------------------------- Constants --------------------------------*/

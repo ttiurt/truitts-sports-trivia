@@ -91,194 +91,185 @@ let naQuestions = [
   },
 ]
 
-export default naQuestions
+
 
 let euQuestions = [
   {
-    question: "",
+    question: "Commonly referred to as 'The Invincibles', what team is the only to not record a single loss in a Premier League season?",
     imgSrc: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correct: ""
+    choiceA: "Manchester United",
+    choiceB: "Liverpool",
+    choiceC: "Arsenal",
+    choiceD: "Tottenham",
+    correct: "C"
   },
   {
-    question: "",
+    question: "This team has won their respective league 10 seasons in a row (2012-13 to Present), with a collective 32 league titles, who is it?",
     imgSrc: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correct: ""
+    choiceA: "Barcelona",
+    choiceB: "Manchester City",
+    choiceC: "Napoli",
+    choiceD: "Bayern Munich",
+    correct: "D"
   },
   {
-    question: "",
+    question: "What is the name of the club football tournament that determines who is the best of the best in Europe?",
     imgSrc: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correct: ""
+    choiceA: "The Champions League",
+    choiceB: "The Euros",
+    choiceC: "The World Cup",
+    choiceD: "The Europa League",
+    correct: "A"
   },
   {
-    question: "",
+    question: "Who is the best club in Europe",
     imgSrc: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correct: ""
+    choiceA: "Chelsea",
+    choiceB: "Juventus",
+    choiceC: "Paris Saint-Germain",
+    choiceD: "Arsenal",
+    correct: "A"
   },
   {
-    question: "",
+    question: "This club is the only british side to have a 100% win rate against spanish giant FC Barcelona",
     imgSrc: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correct: ""
+    choiceA: "Wrexham FC",
+    choiceB: "Dundee United",
+    choiceC: "Liverpool",
+    choiceD: "Leeds United",
+    correct: "B"
   },
   {
-    question: "",
+    question: "This open wheel racing is known as 'The Pinnacle of Motorsport' and is one of the most historic racing series in the world",
     imgSrc: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correct: ""
+    choiceA: "Indy Car",
+    choiceB: "Nascar",
+    choiceC: "Formula 1",
+    choiceD: "World Rally Championship",
+    correct: "C"
   },
   {
-    question: "",
+    question: "At which major tennis gran slam is it required that participants wear white attire?",
     imgSrc: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correct: ""
+    choiceA: "US Open",
+    choiceB: "Wimbledon",
+    choiceC: "French Open",
+    choiceD: "Australian Open",
+    correct: "B"
   },
   {
-    question: "",
+    question: "What is the term for the primary method of scoring in Rugby?",
     imgSrc: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correct: ""
+    choiceA: "Break",
+    choiceB: "Touchdown",
+    choiceC: "Goal",
+    choiceD: "Try",
+    correct: "D"
   },
   {
-    question: "",
+    question: "The 24 hours of Le Mans is one of the most iconic racing events in the world but where is it held?",
     imgSrc: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correct: ""
+    choiceA: "Monza, Italy",
+    choiceB: "Madrid, Spain",
+    choiceC: "Sarthe, France",
+    choiceD: "Talasnal, Portugal",
+    correct: "C"
   },
   {
-    question: "",
+    question: "Currently Canada and the United States produce the most NHL players but this european country responsible for about 10% of the leagues players",
     imgSrc: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correct: ""
+    choiceA: "Denmark",
+    choiceB: "Norway",
+    choiceC: "Sweden",
+    choiceD: "Germany",
+    correct: "C"
   }
 ]
 
-// export default euQuestions
+
 
 let apacQuestions = [
   {
-    question: "",
+    question: "What country currently has the most Cricket World Cup titles?",
     imgSrc: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correct: ""
+    choiceA: "Australia",
+    choiceB: "India",
+    choiceC: "China",
+    choiceD: "England",
+    correct: "A"
   },
   {
-    question: "",
+    question: "What is the national sport of Japan?",
     imgSrc: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correct: ""
+    choiceA: "Baseball",
+    choiceB: "Soccer",
+    choiceC: "Sumo",
+    choiceD: "Fencing",
+    correct: "C"
   },
   {
-    question: "",
+    question: "Who was the first Chinese Formula 1 driver?",
     imgSrc: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correct: ""
+    choiceA: "Yao Ming",
+    choiceB: "Zhou Guanyu",
+    choiceC: "Lin Dan",
+    choiceD: "Confucius",
+    correct: "B"
   },
   {
-    question: "",
+    question: "What is the national sport of China",
     imgSrc: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correct: ""
+    choiceA: "Basketball",
+    choiceB: "Soccer",
+    choiceC: "Badminton",
+    choiceD: "Table Tennis",
+    correct: "D"
   },
   {
-    question: "",
+    question: "Who was the first Korean gold medalist?",
     imgSrc: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correct: ""
+    choiceA: "Kim Min-jae",
+    choiceB: "Sohn Kee-chung",
+    choiceC: "Son Heung-min",
+    choiceD: "Park Tae-geon",
+    correct: "B"
   },
   {
-    question: "",
+    question: "Who was the first Asian to win a singles tennis grand slam?",
     imgSrc: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correct: ""
+    choiceA: "Kimiko Date",
+    choiceB: "Ramanathan Krishnan",
+    choiceC: "Li Na",
+    choiceD: "Paradorn Srichaphan",
+    correct: "C"
   },
   {
-    question: "",
+    question: "The American 4x100 meters freestyle relay swim teamhad never been defeated until the 2000 Olympics when they were beaten by this APAC country",
     imgSrc: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correct: ""
+    choiceA: "Australia",
+    choiceB: "South Korea",
+    choiceC: "India",
+    choiceD: "Thailand",
+    correct: "A"
   },
   {
-    question: "",
+    question: "Australia holds the record for largest victory in an international football match with a score of what?",
     imgSrc: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correct: ""
+    choiceA: "14-0",
+    choiceB: "27-3",
+    choiceC: "11-0",
+    choiceD: "31-0",
+    correct: "D"
   },
   {
-    question: "",
+    question: "Thailand's national sport is which of these?",
     imgSrc: "",
     choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correct: ""
-  },
-  {
-    question: "",
-    imgSrc: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correct: ""
+    choiceB: "Golf",
+    choiceC: "Muay Thai",
+    choiceD: "Kite Flying",
+    correct: "C"
   }
 ]
 
-// export default apacQuestions
+export {naQuestions, euQuestions, apacQuestions}

@@ -58,7 +58,7 @@ function newQuestion(){
   questionCount++
   const questionIdx = Math.floor(Math.random() * availQuestions.length)
   currentQuestion = availQuestions[questionIdx]
-  qImage.innerHTML = currentQuestion.imgSrc
+  qImage.innerHTML = `<img src="${currentQuestion.imgSrc}"/>`
   question.innerText = currentQuestion.question
   choiceA.innerText = currentQuestion.choiceA
   choiceB.innerText = currentQuestion.choiceB

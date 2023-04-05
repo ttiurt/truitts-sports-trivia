@@ -18,7 +18,7 @@ let naQuestions = [
     correct: "C"
   },
   {
-    question: "The Montreal Canadians have the most Stanley Cups in the NHL, but how many do they have?",
+    question: "The Montreal Canadiens have the most Stanley Cups in the NHL, but how many do they have?",
     imgSrc: "",
     choiceA: "24",
     choiceB: "15",

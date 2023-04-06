@@ -58,7 +58,6 @@ h2 {
 
 .btn:hover {
   cursor: pointer;
-  box-shadow: 0 7px 15px 0 gray;
   transition: transform 150ms;
-  transform: scale(1.02);
+  transform: scale(1.05);
 }

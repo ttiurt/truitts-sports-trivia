@@ -58,8 +58,8 @@ function newQuestion(){
   if (availQuestions === 0 || questionCount >= MAX_QUESTIONS){
     return gameOver()
   }
-  clearInterval(counter)
-  startCountdown(20)
+  //clearInterval(counter)
+  //startCountdown(20)
   questionCount++
   const questionIdx = Math.floor(Math.random() * availQuestions.length)
   currentQuestion = availQuestions[questionIdx]

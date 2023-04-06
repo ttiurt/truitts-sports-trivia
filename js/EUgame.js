@@ -48,6 +48,7 @@ function init(){
   endMsgs.style.display = "none"
   trackCont.style.display = "flex"
   container.style.display = "flex"
+  choices.style.display = "flex"
   updateBoards()
   newQuestion()
 }
@@ -90,6 +91,7 @@ function gameOver(){
   endMsgs.style.display = "block"
   trackCont.style.display = "none"
   container.style.display = "none"
+  choices.style.display = "none"
   if (score === 100){
     return smartPerson()
   } else if (score >= 40 && score <= 80){

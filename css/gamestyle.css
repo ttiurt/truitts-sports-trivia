@@ -21,6 +21,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 1000px;
   border-radius: 20px;
   background: rgba(90,90,90, .5);
   margin-bottom: 15px;
@@ -40,6 +41,7 @@ img {
   border-radius: 15px;
   aspect-ratio: 4/3;
   object-fit: cover;
+  margin-bottom: 25px;
 }
 
 #question {
@@ -57,6 +59,8 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
+  width: 500px;
+  max-width: 50%;
   margin-bottom: 0.8rem;
   border-radius: 8px;
   background: gray;
@@ -72,6 +76,10 @@ img {
 }
 
 #choices {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 2rem;
   width: 100%;
 }
@@ -85,8 +93,7 @@ img {
   width: 100%;
   font-size: 2rem;
   margin-bottom: 0.8rem;
-  border-radius: 4px;
-  color: white;
+  border-radius: 8px;
 }
 
 
@@ -97,12 +104,16 @@ img {
   align-items: center;
   margin: .8rem;
   text-align: center;
-  width: 10%;
+  font-size: 2rem;
+  border-radius: 8px;
+  background: rgb(200, 100, 100);
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 #resetBtn:hover {
   cursor: pointer;
   background: rgb(200, 25, 25);
+  color: white;
 }
 
 #changeCat {
@@ -110,12 +121,17 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 10%;
+  font-size: 2rem;
+  width: 200px;
+  border-radius: 8px;
+  background: rgb(200, 100, 100);
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 #changeCat:hover {
   cursor: pointer;
   background: rgb(200, 25, 25);
+  color: white;
 }
 
 #endMsgs {

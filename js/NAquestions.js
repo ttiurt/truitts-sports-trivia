@@ -1,7 +1,7 @@
 let naQuestions = [
   {
     question: "Who is the player in the NBA logo?",
-    imgSrc: "/photos/NA/nba-logo.jpg",
+    imgSrc: "/photos/NA/NA1.jpeg",
     choiceA: "Michael Jordan",
     choiceB: "LeBron James",
     choiceC: "Ray Allen",
@@ -10,7 +10,7 @@ let naQuestions = [
   },
   {
     question: "Who is the all time leading scoring in the NBA?",
-    imgSrc: "/photos/NA/maxresdefault.jpg",
+    imgSrc: "/photos/NA/NA2.jpeg",
     choiceA: "Kareem Abdul Jabar",
     choiceB: "Larry Bird",
     choiceC: "LeBron James",
@@ -19,7 +19,7 @@ let naQuestions = [
   },
   {
     question: "The Montreal Canadiens have the most Stanley Cups in the NHL, but how many do they have?",
-    imgSrc: "/photos/NA/Big-Read-Montreal-Canadiens-1993-Cup-feature.jpg",
+    imgSrc: "/photos/NA/NA3.jpeg",
     choiceA: "24",
     choiceB: "15",
     choiceC: "8",
@@ -28,7 +28,7 @@ let naQuestions = [
   },
   {
     question: "Who is the acclaimed GOAT of hockey? Commonly referred to as 'The Great One'",
-    imgSrc: "/photos/NA/nhl99game.jpeg",
+    imgSrc: "/photos/NA/NA4.jpeg",
     choiceA: "Alex Ovechkin",
     choiceB: "Sydney Crosby",
     choiceC: "Wayne Gretzky",
@@ -37,7 +37,7 @@ let naQuestions = [
   },
   {
     question: "Earning just above $43 million a year, who is currently the highest paid MLB player?",
-    imgSrc: "/photos/NA/mlbsal.jpeg",
+    imgSrc: "/photos/NA/NA5.jpeg",
     choiceA: "Aaron Judge",
     choiceB: "Max Scherzer",
     choiceC: "Shohei Otahni",
@@ -46,7 +46,7 @@ let naQuestions = [
   },
   {
     question: "Barry Bonds hold the record for most HRs in a season with how many?",
-    imgSrc: "/photos/NA/bonds.jpeg",
+    imgSrc: "/photos/NA/NA6.jpeg",
     choiceA: "61",
     choiceB: "73",
     choiceC: "64",
@@ -55,7 +55,7 @@ let naQuestions = [
   },
   {
     question: "Who is the only kicker to ever win the NFL MVP award?",
-    imgSrc: "/photos/NA/kickmvp.jpeg",
+    imgSrc: "/photos/NA/NA7.jpeg",
     choiceA: "Justin Tucker",
     choiceB: "Dan Bailey",
     choiceC: "Billy Cundiff",
@@ -64,7 +64,7 @@ let naQuestions = [
   },
   {
     question: "Despite making the superbowl, the 2011 Patriots only defeated one team with a winning record, who was it?",
-    imgSrc: "/photos/NA/2011pats.jpeg",
+    imgSrc: "/photos/NA/NA8.jpeg",
     choiceA: "Baltimore Ravens",
     choiceB: "New York Giants",
     choiceC: "Detroit Lions",
@@ -73,7 +73,7 @@ let naQuestions = [
   },
   {
     question: "Michael Phelps holds the record for most Olympic gold medals with how many?",
-    imgSrc: "/photos/NA/phelps-medals.jpg",
+    imgSrc: "/photos/NA/NA9.jpeg",
     choiceA: "18",
     choiceB: "28",
     choiceC: "23",
@@ -82,7 +82,7 @@ let naQuestions = [
   },
   {
     question: "The USWNT is the most successful international women's soccer team in the world with how many Women's World Cup titles",
-    imgSrc: "/photos/NA/uswnt.jpeg",
+    imgSrc: "/photos/NA/NA10.jpeg",
     choiceA: "5",
     choiceB: "4",
     choiceC: "6",

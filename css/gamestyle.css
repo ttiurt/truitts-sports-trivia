@@ -3,6 +3,12 @@ body {
   font-family: 'Space Grotesk', sans-serif;
 }
 
+#quiz{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #trackers {
   display: flex;
   text-align: center;
@@ -29,12 +35,12 @@ body {
 ;
 }
 
-
-/* #image {
-  width: 800px;
-  height: 240px;
+img {
+  width: 100%;
+  border-radius: 15px;
+  aspect-ratio: 4/3;
   object-fit: cover;
-} */
+}
 
 #question {
   display: flex;
@@ -55,7 +61,6 @@ body {
   border-radius: 8px;
   background: gray;
   font-size: 3rem;
-  min-width: 80rem;
 }
 
 .choice:hover {
@@ -77,24 +82,27 @@ body {
   align-items: center;
   text-align: center;
   flex-direction: column;
+  width: 100%;
   font-size: 2rem;
   margin-bottom: 0.8rem;
   border-radius: 4px;
   color: white;
-  background: rgb(25, 25, 25);
 }
 
-.btn:hover {
-  cursor: pointer;
-  background: rgb(200, 25, 25);
-}
+
 
 #resetBtn {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: .8rem;
   text-align: center;
   width: 10%;
+}
+
+#resetBtn:hover {
+  cursor: pointer;
+  background: rgb(200, 25, 25);
 }
 
 #changeCat {
@@ -103,6 +111,11 @@ body {
   align-items: center;
   text-align: center;
   width: 10%;
+}
+
+#changeCat:hover {
+  cursor: pointer;
+  background: rgb(200, 25, 25);
 }
 
 #endMsgs {

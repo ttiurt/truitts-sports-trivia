@@ -1,7 +1,7 @@
 let euQuestions = [
   {
     question: "Commonly referred to as 'The Invincibles', what team is the only to not record a single loss in a Premier League season?",
-    imgSrc: "",
+    imgSrc: "/photos/EU/EU1.jpeg",
     choiceA: "Manchester United",
     choiceB: "Liverpool",
     choiceC: "Arsenal",
@@ -10,7 +10,7 @@ let euQuestions = [
   },
   {
     question: "This team has won their respective league 10 seasons in a row (2012-13 to Present), with a collective 32 league titles, who is it?",
-    imgSrc: "",
+    imgSrc: "/photos/EU/EU2.jpeg",
     choiceA: "Barcelona",
     choiceB: "Manchester City",
     choiceC: "Napoli",
@@ -19,7 +19,7 @@ let euQuestions = [
   },
   {
     question: "What is the name of the club football tournament that determines who is the best of the best in Europe?",
-    imgSrc: "",
+    imgSrc: "/photos/EU/EU3.jpeg",
     choiceA: "The Champions League",
     choiceB: "The Euros",
     choiceC: "The World Cup",
@@ -28,7 +28,7 @@ let euQuestions = [
   },
   {
     question: "Who is the best club in Europe",
-    imgSrc: "",
+    imgSrc: "/photos/EU/EU4.jpeg",
     choiceA: "Chelsea",
     choiceB: "Juventus",
     choiceC: "Paris Saint-Germain",
@@ -37,7 +37,7 @@ let euQuestions = [
   },
   {
     question: "This club is the only british side to have a 100% win rate against spanish giant FC Barcelona",
-    imgSrc: "",
+    imgSrc: "/photos/EU/EU5.jpeg",
     choiceA: "Wrexham FC",
     choiceB: "Dundee United",
     choiceC: "Liverpool",
@@ -46,7 +46,7 @@ let euQuestions = [
   },
   {
     question: "This open wheel racing is known as 'The Pinnacle of Motorsport' and is one of the most historic racing series in the world",
-    imgSrc: "",
+    imgSrc: "/photos/EU/EU6.jpeg",
     choiceA: "Indy Car",
     choiceB: "Nascar",
     choiceC: "Formula 1",
@@ -55,7 +55,7 @@ let euQuestions = [
   },
   {
     question: "At which major tennis gran slam is it required that participants wear white attire?",
-    imgSrc: "",
+    imgSrc: "/photos/EU/EU7.jpeg",
     choiceA: "US Open",
     choiceB: "Wimbledon",
     choiceC: "French Open",
@@ -64,7 +64,7 @@ let euQuestions = [
   },
   {
     question: "What is the term for the primary method of scoring in Rugby?",
-    imgSrc: "",
+    imgSrc: "/photos/EU/EU8.jpeg",
     choiceA: "Break",
     choiceB: "Touchdown",
     choiceC: "Goal",
@@ -73,7 +73,7 @@ let euQuestions = [
   },
   {
     question: "The 24 hours of Le Mans is one of the most iconic racing events in the world but where is it held?",
-    imgSrc: "",
+    imgSrc: "/photos/EU/EU9.jpeg",
     choiceA: "Monza, Italy",
     choiceB: "Madrid, Spain",
     choiceC: "Sarthe, France",
@@ -82,7 +82,7 @@ let euQuestions = [
   },
   {
     question: "Currently Canada and the United States produce the most NHL players but this european country responsible for about 10% of the leagues players",
-    imgSrc: "",
+    imgSrc: "/photos/EU/EU10.jpeg",
     choiceA: "Denmark",
     choiceB: "Norway",
     choiceC: "Sweden",

@@ -1,7 +1,7 @@
 let apacQuestions = [
   {
     question: "What country currently has the most Cricket World Cup titles?",
-    imgSrc: "",
+    imgSrc: "/photos/APAC/APAC1.jpeg",
     choiceA: "Australia",
     choiceB: "India",
     choiceC: "China",
@@ -10,7 +10,7 @@ let apacQuestions = [
   },
   {
     question: "What is the national sport of Japan?",
-    imgSrc: "",
+    imgSrc: "/photos/APAC/APAC2.jpeg",
     choiceA: "Baseball",
     choiceB: "Soccer",
     choiceC: "Sumo",
@@ -19,7 +19,7 @@ let apacQuestions = [
   },
   {
     question: "Who was the first Chinese Formula 1 driver?",
-    imgSrc: "",
+    imgSrc: "/photos/APAC/APAC3.jpeg",
     choiceA: "Yao Ming",
     choiceB: "Zhou Guanyu",
     choiceC: "Lin Dan",
@@ -28,7 +28,7 @@ let apacQuestions = [
   },
   {
     question: "What is the national sport of China",
-    imgSrc: "",
+    imgSrc: "/photos/APAC/APAC4.jpeg",
     choiceA: "Basketball",
     choiceB: "Soccer",
     choiceC: "Badminton",
@@ -37,7 +37,7 @@ let apacQuestions = [
   },
   {
     question: "Who was the first Korean gold medalist?",
-    imgSrc: "",
+    imgSrc: "/photos/APAC/APAC5.jpeg",
     choiceA: "Kim Min-jae",
     choiceB: "Sohn Kee-chung",
     choiceC: "Son Heung-min",
@@ -46,7 +46,7 @@ let apacQuestions = [
   },
   {
     question: "Who was the first Asian to win a singles tennis grand slam?",
-    imgSrc: "",
+    imgSrc: "/photos/APAC/APAC6.jpeg",
     choiceA: "Kimiko Date",
     choiceB: "Ramanathan Krishnan",
     choiceC: "Li Na",
@@ -55,7 +55,7 @@ let apacQuestions = [
   },
   {
     question: "The American 4x100 meters freestyle relay swim teamhad never been defeated until the 2000 Olympics when they were beaten by this APAC country",
-    imgSrc: "",
+    imgSrc: "/photos/APAC/APAC7.jpeg",
     choiceA: "Australia",
     choiceB: "South Korea",
     choiceC: "India",
@@ -64,7 +64,7 @@ let apacQuestions = [
   },
   {
     question: "Australia holds the record for largest victory in an international football match with a score of what?",
-    imgSrc: "",
+    imgSrc: "/photos/APAC/APAC8.jpeg",
     choiceA: "14-0",
     choiceB: "27-3",
     choiceC: "11-0",
@@ -73,7 +73,7 @@ let apacQuestions = [
   },
   {
     question: "Thailand's national sport is which of these?",
-    imgSrc: "",
+    imgSrc: "/photos/APAC/APAC9.jpeg",
     choiceA: "eSport",
     choiceB: "Golf",
     choiceC: "Muay Thai",

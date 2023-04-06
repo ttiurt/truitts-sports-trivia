@@ -76,7 +76,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 15%;
+  flex-direction: column;
   font-size: 2rem;
   margin-bottom: 0.8rem;
   border-radius: 4px;
@@ -89,4 +89,30 @@ body {
   background: rgb(200, 25, 25);
 }
 
+#resetBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 10%;
+}
 
+#changeCat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 10%;
+}
+
+#endMsgs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  padding: 2rem;
+}

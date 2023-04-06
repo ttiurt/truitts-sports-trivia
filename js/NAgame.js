@@ -4,14 +4,17 @@ import naQuestions from "./NAquestions.js"
 /*-------------------------------- Constants --------------------------------*/
 
 const MAX_QUESTIONS = 5
+const startingMinutes = 5
 
 /*---------------------------- Variables (state) ----------------------------*/
 
-let currentQuestion, availQuestions, score, questionCount, checkingAnswer
+let currentQuestion, availQuestions, score, questionCount, checkingAnswer, counter
+
 
 /*------------------------ Cached Element References ------------------------*/
 
 const quiz = document.getElementById("quiz")
+const timer = document.getElementById("timer")
 const container = document.getElementById("qContainer")
 const qImage = document.getElementById("image")
 const question = document.getElementById("question")
@@ -55,6 +58,8 @@ function newQuestion(){
   if (availQuestions === 0 || questionCount >= MAX_QUESTIONS){
     return gameOver()
   }
+  clearInterval(counter)
+  startCountdown(20)
   questionCount++
   const questionIdx = Math.floor(Math.random() * availQuestions.length)
   currentQuestion = availQuestions[questionIdx]
@@ -116,6 +121,22 @@ function notForYou(){
 
 function returnHome(){
   window.location.assign("home.html")
+}
+
+function startCountdown(time){
+  counter = setInterval(clock, 1000)
+  function clock(){
+    timer.innerHTML = time
+    time--
+    if (time < 9){
+      let addZero = timer.innerHTML
+      timer.innerHTML = "0" + addZero
+    }
+    if (time < 0){
+      clearInterval(counter)
+      return gameOver()
+    }
+  }
 }
 
 init()

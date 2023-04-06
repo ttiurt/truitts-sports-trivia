@@ -1,6 +1,22 @@
 body {
-  background-color: rgb(25, 25, 25);
+  background: linear-gradient(-45deg, #636363, #8b8b8b, #454545, #212121);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
 }
+  
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 
 * {
   box-sizing: inherit;
@@ -52,7 +68,7 @@ h2 {
   text-decoration: none;
   width: 30rem;
   color: white;
-  background: rgb(100,175,75);
+  background: rgb(30, 30, 30);
   border-radius: 10px;
 }
 

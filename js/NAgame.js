@@ -58,8 +58,9 @@ function newQuestion(){
   if (availQuestions === 0 || questionCount >= MAX_QUESTIONS){
     return gameOver()
   }
-  //clearInterval(counter)
-  //startCountdown(20)
+  clearInterval(counter)
+  startCountdown(20)
+  timer.style.color = "black"
   questionCount++
   const questionIdx = Math.floor(Math.random() * availQuestions.length)
   currentQuestion = availQuestions[questionIdx]
@@ -109,9 +110,9 @@ function smartPerson() {
 }
 
 function notSoSmartPerson(){
-  endTitle.innerText = `Good Job!`
+  endTitle.innerText = `Nice Try!`
   endScore.innerText = `${score} points`
-  endMsg.innerText = `Next time you'll get 'em all!`
+  endMsg.innerText = `Better Luck Next Time!`
 }
 
 function notForYou(){
@@ -132,6 +133,7 @@ function startCountdown(time){
     if (time < 9){
       let addZero = timer.innerHTML
       timer.innerHTML = "0" + addZero
+      timer.style.color = "red"
     }
     if (time < 0){
       clearInterval(counter)
@@ -139,5 +141,9 @@ function startCountdown(time){
     }
   }
 }
+
+
+
+
 
 init()

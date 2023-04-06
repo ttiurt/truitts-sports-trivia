@@ -17,25 +17,31 @@ body {
   }
 }
 
+@font-face {
+  font-family: nike-font;
+  src: url(/font/Futura-Std-Bold-Oblique.ttf);
+}
 
 * {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
   font-size: 62.5%;
-  font-family: 'Space Grotesk', sans-serif;
+  
 }
 
 h1 {
   color: white;
-  font-size: 5.4rem;
-  margin-bottom: 5rem;
+  font-size: 10rem;
+  margin-bottom: 2rem;
+  font-family: nike-font;
 }
 
 h2 {
   color: white;
   font-size: 4.2rem;
   margin-bottom: 4rem;
+  font-family: nike-font;
 }
 
 
@@ -70,6 +76,7 @@ h2 {
   color: white;
   background: rgb(30, 30, 30);
   border-radius: 10px;
+  font-family: nike-font;
 }
 
 .btn:hover {

@@ -30,6 +30,7 @@ const endMsgs = document.getElementById("endMsgs")
 const endTitle = document.getElementById("endMsgTitle")
 const endMsg = document.getElementById("endMsg")
 const endScore = document.getElementById("endScore")
+const confetti = document.getElementById("confetti")
 
 
 /*----------------------------- Event Listeners -----------------------------*/
@@ -45,6 +46,7 @@ function init(){
   score = 0
   checkingAnswer = false
   availQuestions = [... apacQuestions]
+  confetti.style.display = "none"
   endMsgs.style.display = "none"
   trackCont.style.display = "flex"
   container.style.display = "flex"
@@ -105,12 +107,14 @@ function smartPerson() {
   endTitle.innerText = `INSANE!`
   endScore.innerText = `${score} points`
   endMsg.innerText = `You're Basically an Encyclopedia!`
+  confetti.style.display = "block"
 }
 
 function notSoSmartPerson(){
-  endTitle.innerText = `Good Job!`
+  endTitle.innerText = `Nice Try!`
   endScore.innerText = `${score} points`
   endMsg.innerText = `Next time you'll get 'em all!`
+  confetti.style.display = "block"
 }
 
 function notForYou(){

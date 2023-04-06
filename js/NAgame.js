@@ -4,7 +4,6 @@ import naQuestions from "./NAquestions.js"
 /*-------------------------------- Constants --------------------------------*/
 
 const MAX_QUESTIONS = 5
-const startingMinutes = 5
 
 /*---------------------------- Variables (state) ----------------------------*/
 

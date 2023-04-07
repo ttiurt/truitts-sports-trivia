@@ -125,7 +125,7 @@ function notSoSmartPerson(){
 }
 
 function notForYou(){
-  endTitle.innerText = `Yikes :/`
+  endTitle.innerText = `Yikes... (ㆆ_ㆆ)`
   endScore.innerText = `${score} points`
   endMsg.innerText = `Maybe sports aren't for you...`
   bigLoser.volume = .05

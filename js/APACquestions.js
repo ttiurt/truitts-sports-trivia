@@ -54,7 +54,7 @@ let apacQuestions = [
     correct: "C"
   },
   {
-    question: "The American 4x100 meters freestyle relay swim teamhad never been defeated until the 2000 Olympics when they were beaten by this APAC country",
+    question: "The U.S. 400m relay swim team had never been defeated until the 2000 Olympics when they were beaten by this APAC country",
     imgSrc: "/photos/APAC/APAC7.jpeg",
     choiceA: "Australia",
     choiceB: "South Korea",

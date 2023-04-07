@@ -1,6 +1,6 @@
 let euQuestions = [
   {
-    question: "Commonly referred to as 'The Invincibles', what team is the only to not record a single loss in a Premier League season?",
+    question: "Referred to as 'The Invincibles', who is the only team to not record a single loss in a Premier League season?",
     imgSrc: "/photos/EU/EU1.jpeg",
     choiceA: "Manchester United",
     choiceB: "Liverpool",
@@ -54,7 +54,7 @@ let euQuestions = [
     correct: "C"
   },
   {
-    question: "At which major tennis gran slam is it required that participants wear white attire?",
+    question: "At which major tennis grand slam is it required that participants wear white attire?",
     imgSrc: "/photos/EU/EU7.jpeg",
     choiceA: "US Open",
     choiceB: "Wimbledon",
@@ -72,7 +72,7 @@ let euQuestions = [
     correct: "D"
   },
   {
-    question: "The 24 hours of Le Mans is one of the most iconic racing events in the world but where is it held?",
+    question: "The 24 hours of Le Mans is one of the most iconic racing events in the world, but where is it held?",
     imgSrc: "/photos/EU/EU9.jpeg",
     choiceA: "Monza, Italy",
     choiceB: "Madrid, Spain",

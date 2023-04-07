@@ -7,7 +7,7 @@
 
 html {
 	background-color: rgb(70, 70, 70);
-	background-image: url(/photos/liverpoolbw.jpeg);
+	background-image: url(/photos/liverpoolbw.png);
   background-blend-mode: multiply;
 	background-size: cover;
 	background-position: top center;
@@ -62,10 +62,10 @@ h2 {
   align-items: center;
 }
 
-.btn {
+/* .btn {
   font-size: 2.4rem;
   padding: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
   text-align: center;
   text-decoration: none;
   width: 30rem;
@@ -80,4 +80,53 @@ h2 {
   cursor: pointer;
   transition: transform 150ms;
   transform: scale(1.05);
+} */
+
+.btn {
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 4rem;
+  padding: 0.7em 2em;
+  border: 3px solid #ffffff;
+  border-radius: 2px;
+  position: relative;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.3s ease all;
+  z-index: 1;
+  font-family: nike-font;
+}
+
+.btn:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: '';
+  background-color: #3f763b;
+  z-index: -1;
+}
+
+.btn:hover, .btn:focus {
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover:before, .btn:focus:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+.btn:active {
+  transform: scale(0.9);
 }

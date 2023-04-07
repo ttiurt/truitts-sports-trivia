@@ -41,6 +41,8 @@ https://developer.mozilla.org/en-US/
 
 https://www.gettyimages.com/ 
 
+https://www.dafontfree.io/
+
 
 
 ### FUTURE PLANS:

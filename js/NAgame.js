@@ -152,9 +152,4 @@ function startCountdown(time){
     }
   }
 }
-
-
-
-
-
 init()

@@ -17,7 +17,15 @@ Upon going to the link provided, you will be greeted with a home page at which y
 
 ### TECHNOLOGIES USED:
 
-Each category was made with their own JavaScript and HTML files while sharing the same CSS file
+-JavaScript 
+
+-HTML 
+
+-CSS
+
+-Git
+
+-Netlify
 
 
 
@@ -25,7 +33,7 @@ Each category was made with their own JavaScript and HTML files while sharing th
 
 https://www.wikipedia.org/ 
 
-https://github.com/ttiurt/unit1-sports-quiz
+https://github.com/ttiurt/
 
 https://code.visualstudio.com/ 
 

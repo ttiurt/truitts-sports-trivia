@@ -1,5 +1,10 @@
 body {
-  background-color: #e3e3e3;  
+  background-color: rgb(70, 70, 70);  
+  background-image: url(/photos/barcabw.jpeg);
+  background-blend-mode: multiply;
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
   font-family: 'Space Grotesk', sans-serif;
 }
 
@@ -18,13 +23,20 @@ body {
 
 #trackers {
   display: flex;
+  background-color: rgba(70, 70, 70, .85);
+  width: 900px;
+  margin: 0 auto;
+  border-radius: 10px;
   text-align: center;
   justify-content: space-evenly;
   align-items: center;
+  color: white;
+  box-shadow:  5px 5px 0px #353535, -5px -5px 0px #585858;
 }
 
 #timer {
   font-family: score-clock;
+  color: white;
 }
 
 #qContainer {
@@ -37,8 +49,8 @@ body {
   padding: 2rem;
   margin: 0 auto;
   border-radius: 34px;
-  background: #e3e3e3;
-  box-shadow:  10px 10px 10px #c1c1c1,-10px -10px 10px #ffffff;
+  background: rgba(70, 70, 70, 0.85);
+  box-shadow:  5px 5px 0px #353535, -5px -5px 0px #585858;
 }
 
 img {
@@ -48,7 +60,8 @@ img {
   aspect-ratio: 4/3;
   object-fit: cover;
   margin-bottom: 25px;
-  box-shadow:  10px 10px 10px #c1c1c1,-10px -10px 10px #ffffff;
+  background: rgba(70, 70, 70, 0.85);
+  box-shadow:  5px 5px 0px #353535, -5px -5px 0px #585858;
 }
 
 #question {
@@ -56,6 +69,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: white;
   font-size: 2.5rem;
 }
 
@@ -71,13 +85,13 @@ img {
   border-radius: 8px;
   background: #e3e3e3;
   font-size: 2rem;
-  box-shadow:  10px 10px 10px #c1c1c1,-10px -10px 10px #ffffff;
+  box-shadow:  5px 5px 0px #353535, -5px -5px 0px #585858;
 }
 
 .choice:hover {
   cursor: pointer;
   background: rgb(181, 181, 181);
-  box-shadow: 0 0.4rem 1.4rem 0 darkgray;
+  box-shadow:  5px 5px 0px #353535, -5px -5px 0px #585858;
   transform: scale(1.01);
   transform: transform 100ms;
 }
@@ -122,7 +136,7 @@ img {
 
 #resetBtn:hover {
   cursor: pointer;
-  background: rgb(200, 25, 25);
+  background: rgb(121, 20, 20);
   color: white;
 }
 
@@ -141,7 +155,7 @@ img {
 
 #changeCat:hover {
   cursor: pointer;
-  background: rgb(200, 25, 25);
+  background: rgb(120, 21, 21);
   color: white;
 }
 
@@ -151,10 +165,15 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
+  color: white;
   font-size: 2rem;
   border-radius: 20px;
   margin-bottom: 15px;
+  margin-top: 250px;
   padding: 2rem;
+  border-radius: 34px;
+  background: rgba(70, 70, 70, 0.952);
+  box-shadow:  5px 5px 0px #353535, -5px -5px 0px #585858;
 }
 
 

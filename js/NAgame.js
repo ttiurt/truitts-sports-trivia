@@ -62,7 +62,7 @@ function newQuestion(){
   }
   clearInterval(counter)
   startCountdown(20)
-  timer.style.color = "black"
+  timer.style.color = "white"
   questionCount++
   const questionIdx = Math.floor(Math.random() * availQuestions.length)
   currentQuestion = availQuestions[questionIdx]

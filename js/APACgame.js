@@ -31,6 +31,8 @@ const endTitle = document.getElementById("endMsgTitle")
 const endMsg = document.getElementById("endMsg")
 const endScore = document.getElementById("endScore")
 const confetti = document.getElementById("confetti")
+const homeRun = new Audio("/audio/wiiBaseball.mp3")
+const bigLoser = new Audio("/audio/fortniteL.mp3")
 
 
 /*----------------------------- Event Listeners -----------------------------*/
@@ -61,6 +63,7 @@ function newQuestion(){
   }
   clearInterval(counter)
   startCountdown(20)
+  timer.style.color = "white"
   questionCount++
   const questionIdx = Math.floor(Math.random() * availQuestions.length)
   currentQuestion = availQuestions[questionIdx]
@@ -108,6 +111,8 @@ function smartPerson() {
   endScore.innerText = `${score} points`
   endMsg.innerText = `You're Basically an Encyclopedia!`
   confetti.style.display = "block"
+  homeRun.volume = .05
+  homeRun.play()
 }
 
 function notSoSmartPerson(){
@@ -115,12 +120,16 @@ function notSoSmartPerson(){
   endScore.innerText = `${score} points`
   endMsg.innerText = `Next time you'll get 'em all!`
   confetti.style.display = "block"
+  homeRun.volume = .05
+  homeRun.play()
 }
 
 function notForYou(){
-  endTitle.innerText = `Yikes. :/`
+  endTitle.innerText = `Yikes :/`
   endScore.innerText = `${score} points`
   endMsg.innerText = `Maybe sports aren't for you...`
+  bigLoser.volume = .05
+  bigLoser.play()
 }
 
 function returnHome(){
@@ -135,6 +144,7 @@ function startCountdown(time){
     if (time < 9){
       let addZero = timer.innerHTML
       timer.innerHTML = "0" + addZero
+      timer.style.color = "red"
     }
     if (time < 0){
       clearInterval(counter)

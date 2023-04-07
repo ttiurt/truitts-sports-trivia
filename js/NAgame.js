@@ -9,7 +9,6 @@ const MAX_QUESTIONS = 5
 
 let currentQuestion, availQuestions, score, questionCount, checkingAnswer, counter
 
-
 /*------------------------ Cached Element References ------------------------*/
 
 const quiz = document.getElementById("quiz")
@@ -32,6 +31,8 @@ const endTitle = document.getElementById("endMsgTitle")
 const endMsg = document.getElementById("endMsg")
 const endScore = document.getElementById("endScore")
 const confetti = document.getElementById("confetti")
+const homeRun = new Audio("/audio/wiiBaseball.mp3")
+const bigLoser = new Audio("/audio/fortniteL.mp3")
 
 
 /*----------------------------- Event Listeners -----------------------------*/
@@ -110,6 +111,8 @@ function smartPerson() {
   endScore.innerText = `${score} points`
   endMsg.innerText = `You're Basically an Encyclopedia!`
   confetti.style.display = "block"
+  homeRun.volume = .05
+  homeRun.play()
 }
 
 function notSoSmartPerson(){
@@ -117,12 +120,16 @@ function notSoSmartPerson(){
   endScore.innerText = `${score} points`
   endMsg.innerText = `Better Luck Next Time!`
   confetti.style.display = "block"
+  homeRun.volume = .05
+  homeRun.play()
 }
 
 function notForYou(){
-  endTitle.innerText = `Yikes. :/`
+  endTitle.innerText = `Yikes :/`
   endScore.innerText = `${score} points`
   endMsg.innerText = `Maybe sports aren't for you...`
+  bigLoser.volume = .05
+  bigLoser.play()
 }
 
 function returnHome(){

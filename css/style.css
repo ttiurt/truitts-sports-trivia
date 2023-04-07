@@ -72,6 +72,7 @@ h2 {
   color: white;
   background: rgba(45, 45, 45, 0.9);
   border-radius: 10px;
+  box-shadow:  5px 5px 0px #353535, -2px -2px 0px #585858;
   font-family: nike-font;
 }
 

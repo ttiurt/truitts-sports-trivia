@@ -11,7 +11,7 @@ let currentQuestion, availQuestions, score, questionCount, checkingAnswer, count
 
 /*------------------------ Cached Element References ------------------------*/
 
-const quiz = document.getElementById("quiz")
+
 const timer = document.getElementById("timer")
 const container = document.getElementById("qContainer")
 const qImage = document.getElementById("image")
